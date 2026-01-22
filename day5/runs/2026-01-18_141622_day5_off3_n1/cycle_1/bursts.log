@@ -1,0 +1,450 @@
+Burst 1
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 2
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 3
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 4
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 5
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 6
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 7
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 8
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 9
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 10
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 11
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 12
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 13
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 14
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 15
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 16
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 17
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 18
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 19
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 20
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 21
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 22
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 23
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 24
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 25
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 26
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 27
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 28
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 29
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 30
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 31
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 32
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 33
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 34
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 35
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 36
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 37
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 38
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 39
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 40
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 41
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 42
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 43
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 44
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 45
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 46
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 47
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 48
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 49
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):
+Burst 50
+burst: (g=0): rw=randwrite, bs=(R) 4096B-4096B, (W) 4096B-4096B, (T) 4096B-4096B, ioengine=libaio, iodepth=32
+fio-3.39
+Starting 1 process
+burst: Laying out IO file (1 file / 1024MiB)
+fio: pid=0, err=13/file:filesetup.c:174, func=open, error=Permission denied
+
+
+Run status group 0 (all jobs):

@@ -1,0 +1,17 @@
+THERMAL SUMMARY
+lines_parsed=825
+temp_min=45.0C temp_max=60.9C temp_avg=54.67C
+rpm_min=0 rpm_max=3439
+pwm_en_counts={2: 825}
+throttled=0x0 throughout (no throttling detected in parsed lines)
+
+HEARTBEAT WINDOWS (dt_ns)
+pre: n=1200 min=101343138 p50=101527532 p95=101734376 p99=102108122 max=102828455 avg=101557588
+drift: n=6000 min=101019093 p50=102083735 p95=102160277 p99=102307521 max=102985089 avg=102056898
+post: n=897 min=101380435 p50=101521584 p95=101641992 p99=101712976 max=102112636 avg=101535535
+
+AVG dt (ms)
+pre=101.558 drift=102.057 post=101.536
+drift_minus_pre=0.499 ms
+
+Process finished with exit code 0

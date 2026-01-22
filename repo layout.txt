@@ -1,0 +1,23 @@
+sys-observe/
+├── scripts/
+│   ├── fan_path.sh
+│   ├── log_thermal.sh
+│   ├── log_heartbeat.sh
+│   ├── run_baseline.sh
+│   ├── run_drift_fio.sh
+│
+├── logs/
+│   ├── baseline/
+│   ├── day1_drift/
+│   └── README.md
+│
+├── docs/
+│   ├── README.md
+│   ├── ENVIRONMENT.md
+│   ├── METHODOLOGY.md
+│   └── EXPERIMENTS.md
+│
+├── experiments/
+│   └── day1_drift.md
+│
+└── README.md

@@ -1,0 +1,1 @@
+NOTE: Heartbeat was restarted automatically right after intervention stop (see console WARN). Treat heartbeat.log as two segments.
