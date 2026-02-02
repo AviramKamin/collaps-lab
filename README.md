@@ -53,14 +53,6 @@ notes.md # hypothesis, design, results, conclusions
 All data is **raw and reproducible**.  
 No post-processing or smoothing has been applied.
 
----
-
-## Current Status
-
-- Day 5: Collapse memory experiments – **complete**
-- Day 6: Extended hysteresis and recovery analysis – **planned**
-
----
 
 ## Reproducibility
 
