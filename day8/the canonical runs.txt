@@ -1,0 +1,18 @@
+the canonical “matrix” set
+------------------------------
+
+OFF=3
+
+A control: 2026-02-06_162232_day8_off3_low_n3 (probes disabled)
+
+B low: 2026-02-06_223358_day8_off3_LOW_n3 (probes LOW, file 64)
+
+C high: 2026-02-07_142628_day8_off3_HIGH_n3 (probes HIGH, file 64)
+
+OFF=2
+
+A control: 2026-02-07_150710_day8_off2_low_n3 (probes disabled)
+
+B low: 2026-02-07_154800_day8_off2_LOW_n3
+
+C high: 2026-02-07_162954_day8_off2_HIGH_n3
