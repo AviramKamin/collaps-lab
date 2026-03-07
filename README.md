@@ -80,3 +80,16 @@ It is relevant to anyone working with systems where timing, retries, queues, or 
 
 This is **not** aimed at UI testing, application-level QA, or performance benchmarking in isolation.
 It is for engineers who want to understand *how systems degrade*, *how collapse propagates*, and *why recovery is often imperfect* even when load is removed.
+
+## Study Overview
+
+For a full timeline of the experiments and discoveries:
+
+→ [Study Inventory](study_inventory.md)
+
+## Contact
+
+Questions, feedback, or collaboration ideas are welcome.
+
+ 
+LinkedIn: https://www.linkedin.com/in/aviram-kamin/
