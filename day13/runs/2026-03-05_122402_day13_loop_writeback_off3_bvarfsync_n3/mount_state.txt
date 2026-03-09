@@ -1,0 +1,28 @@
+=== date ===
+2026-03-05T12:24:02+02:00
+
+=== uname ===
+Linux sys-observe 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1 (2025-09-16) aarch64 GNU/Linux
+
+=== findmnt WORKDIR ===
+TARGET                               SOURCE               FSTYPE OPTIONS
+/home/observer/project/day13/workdir /dev/loop1[/workdir] ext4   rw,relatime,data=writeback
+
+=== findmnt RUNS_DIR ===
+TARGET                            SOURCE            FSTYPE OPTIONS
+/home/observer/project/day13/runs /dev/loop1[/runs] ext4   rw,relatime,data=writeback
+
+=== findmnt PROBE_ROOT ===
+TARGET                               SOURCE               FSTYPE OPTIONS
+/home/observer/project/day13/workdir /dev/loop1[/workdir] ext4   rw,relatime,data=writeback
+
+=== findmnt TARGET ===
+TARGET                               SOURCE               FSTYPE OPTIONS
+/home/observer/project/day13/workdir /dev/loop1[/workdir] ext4   rw,relatime,data=writeback
+
+=== mount (filtered: ext4) ===
+/dev/mmcblk0p2 on / type ext4 (rw,noatime)
+/home/observer/project/day13/day13fs.img on /mnt/day13fs type ext4 (rw,relatime,data=writeback)
+/home/observer/project/day13/day13fs.img on /home/observer/project/day13/runs type ext4 (rw,relatime,data=writeback)
+/home/observer/project/day13/day13fs.img on /home/observer/project/day13/workdir type ext4 (rw,relatime,data=writeback)
+
