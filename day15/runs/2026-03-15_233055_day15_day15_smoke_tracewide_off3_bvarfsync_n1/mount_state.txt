@@ -1,0 +1,25 @@
+=== date ===
+2026-03-15T23:30:55+02:00
+
+=== uname ===
+Linux sys-observe 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1 (2025-09-16) aarch64 GNU/Linux
+
+=== findmnt WORKDIR ===
+TARGET SOURCE         FSTYPE OPTIONS
+/      /dev/mmcblk0p2 ext4   rw,noatime
+
+=== findmnt RUNS_DIR ===
+TARGET SOURCE         FSTYPE OPTIONS
+/      /dev/mmcblk0p2 ext4   rw,noatime
+
+=== findmnt PROBE_ROOT ===
+TARGET   SOURCE FSTYPE OPTIONS
+/dev/shm tmpfs  tmpfs  rw,nosuid,nodev
+
+=== findmnt TARGET ===
+TARGET SOURCE         FSTYPE OPTIONS
+/      /dev/mmcblk0p2 ext4   rw,noatime
+
+=== mount (filtered: ext4) ===
+/dev/mmcblk0p2 on / type ext4 (rw,noatime)
+
