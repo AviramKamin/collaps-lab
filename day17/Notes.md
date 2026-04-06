@@ -1,4 +1,4 @@
-Day17 – High-Resolution Timing Around Phase Transitions
+Day17  High-Resolution Timing Around Phase Transitions
 --------------------------------------------------------
 Introduction
 --------------
@@ -158,7 +158,7 @@ Heartbeat sampling was performed at ~50 Hz, yielding a total of 34,601 samples.
 
 General Heartbeat Behavior
 ---------------------------
-Across the run, the steady-state heartbeat interval remained stable at approximately 21–22 ms, 
+Across the run, the steady-state heartbeat interval remained stable at approximately 2122 ms, 
 consistent with the configured sampling rate. No drift or degradation in baseline cadence was observed across cycles.
 
 Spike Occurrence
@@ -189,16 +189,16 @@ additional high-latency deviations below this threshold are included to characte
 
 The ten highest latency events observed in the run were:
 
-707.296 ms → C2_RECOVERY_R1_START
-158.047 ms → C2_RECOVERY_R2_START
-147.969 ms → C3_RECOVERY_R2_START
-146.639 ms → C1_RECOVERY_R2_START
-133.780 ms → C1_RECOVERY_R1_START
-84.931 ms  → C2_RECOVERY_R2_START
-79.849 ms  → C1_RECOVERY_R2_START
-68.243 ms  → C1_RECOVERY_R2_START
-66.981 ms  → C2_RECOVERY_R2_START
-62.250 ms  → C1_RECOVERY_R2_START
+707.296 ms  C2_RECOVERY_R1_START
+158.047 ms  C2_RECOVERY_R2_START
+147.969 ms  C3_RECOVERY_R2_START
+146.639 ms  C1_RECOVERY_R2_START
+133.780 ms  C1_RECOVERY_R1_START
+84.931 ms   C2_RECOVERY_R2_START
+79.849 ms   C1_RECOVERY_R2_START
+68.243 ms   C1_RECOVERY_R2_START
+66.981 ms   C2_RECOVERY_R2_START
+62.250 ms   C1_RECOVERY_R2_START
 
 
 Phase-Level Observations
@@ -230,7 +230,7 @@ Second, a single extreme latency event (707 ms) was observed,
 and it occurred at the start of recovery R1 in cycle 2. No other phase produced a comparable magnitude event. 
 This establishes that extreme latency can emerge outside of the active intervention window.
 
-Third, sub-threshold high-latency deviations (approximately 60–160 ms) were consistently observed, 
+Third, sub-threshold high-latency deviations (approximately 60160 ms) were consistently observed, 
 primarily during recovery R2, and to a lesser extent at recovery R1. 
 These deviations appeared across multiple cycles and were absent from baseline, intervention, and post-baseline phases.
 
