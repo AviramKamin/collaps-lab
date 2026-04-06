@@ -1,0 +1,15 @@
+[global]
+ioengine=libaio
+direct=0
+iodepth=4
+numjobs=1
+group_reporting=1
+
+rw=write
+bs=128k
+size=64m
+rate=8m
+
+filename=/dev/shm/day17_bgio/bgio.test
+
+[bgio]

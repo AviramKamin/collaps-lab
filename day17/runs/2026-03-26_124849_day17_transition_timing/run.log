@@ -1,0 +1,5 @@
+[INFO] Starting Day17 run: 2026-03-26_124849_day17_transition_timing
+[INFO] SCRIPTS_DIR=/home/observer/project/day17/scripts
+[INFO] BASE_DIR=/home/observer/project/day17 PROBE_ROOT=/dev/shm/day17_probes BGIO_FILE=/home/observer/project/day17/scripts/bgio.fio RETRY_TARGET=/home/observer/project/day17/workdir/retry_test
+[INFO] N_CYCLES=1 BASELINE_SEC=5 INTERVENTION_SEC=3 R1_SEC=5 R2_SEC=5 POST_SEC=5 HEARTBEAT_HZ=20 ENABLE_PROC_SAMPLING=0 SAMPLE_HZ=10 ENABLE_R2_TELEMETRY=0 ENABLE_DISK_WATCH=0
+[ERROR] FIO job file not found: /home/observer/project/day17/scripts/bgio.fio
