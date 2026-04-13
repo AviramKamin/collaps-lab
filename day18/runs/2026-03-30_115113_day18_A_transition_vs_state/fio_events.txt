@@ -1,0 +1,3 @@
+  WRITE: bw=8207KiB/s (8404kB/s), 8207KiB/s-8207KiB/s (8404kB/s-8404kB/s), io=64.0MiB (67.1MB), run=7985-7985msec
+  WRITE: bw=8207KiB/s (8404kB/s), 8207KiB/s-8207KiB/s (8404kB/s-8404kB/s), io=64.0MiB (67.1MB), run=7985-7985msec
+  WRITE: bw=8207KiB/s (8404kB/s), 8207KiB/s-8207KiB/s (8404kB/s-8404kB/s), io=64.0MiB (67.1MB), run=7985-7985msec

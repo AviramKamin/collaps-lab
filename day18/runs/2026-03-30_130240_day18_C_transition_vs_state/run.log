@@ -1,0 +1,202 @@
+[INFO] Starting Day18 run: 2026-03-30_130240_day18_C_transition_vs_state
+[INFO] CONDITION=C
+[INFO] SCRIPTS_DIR=/home/observer/project/day18/scripts
+[INFO] BASE_DIR=/home/observer/project/day18 PROBE_ROOT=/dev/shm/day18_probes BGIO_FILE=/home/observer/project/day18/scripts/bgio.fio RETRY_TARGET=/home/observer/project/day18/workdir/retry_test
+[INFO] Kernel: Linux sys-observe 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1 (2025-09-16) aarch64 GNU/Linux
+[INFO] CPU_COUNT: 4
+[INFO] N_CYCLES=3 BASELINE_SEC=60 INTERVENTION_SEC=20 R1_SEC=60 R2_SEC=60 POST_SEC=60 HEARTBEAT_HZ=50 ENABLE_PROC_SAMPLING=0 ENABLE_R2_TELEMETRY=0 ENABLE_DISK_WATCH=0
+[INFO] Heartbeat PID: 438940
+1774864960140755306 C_C1_BASELINE_START
+=== CONDITION_C_CYCLE_1_START ===
+--- BASELINE ---
+1774865020145778951 C_C1_BASELINE_END
+1774865020147692232 C_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] timeout 20s env FIO_JOB=/home/observer/project/day18/scripts/bgio.fio BURSTS=1 ON_SEC=20 OFF_SEC=0 bash /home/observer/project/day18/scripts/run_bursts.sh
+Burst 1
+bgio: (g=0): rw=write, bs=(R) 128KiB-128KiB, (W) 128KiB-128KiB, (T) 128KiB-128KiB, ioengine=libaio, iodepth=4
+fio-3.39
+Starting 1 process
+bgio: Laying out IO file (1 file / 64MiB)
+
+bgio: (groupid=0, jobs=1): err= 0: pid=444566: Mon Mar 30 13:03:48 2026
+  write: IOPS=64, BW=8207KiB/s (8404kB/s)(64.0MiB/7985msec); 0 zone resets
+    slat (nsec): min=29056, max=71760, avg=41122.11, stdev=4801.18
+    clat (nsec): min=1093, max=7815, avg=4530.18, stdev=1689.54
+     lat (nsec): min=31630, max=78242, avg=45652.29, stdev=6166.73
+    clat percentiles (nsec):
+     |  1.00th=[ 1192],  5.00th=[ 1384], 10.00th=[ 1704], 20.00th=[ 2192],
+     | 30.00th=[ 4384], 40.00th=[ 4768], 50.00th=[ 4960], 60.00th=[ 5216],
+     | 70.00th=[ 5536], 80.00th=[ 5984], 90.00th=[ 6304], 95.00th=[ 6560],
+     | 99.00th=[ 7072], 99.50th=[ 7328], 99.90th=[ 7840], 99.95th=[ 7840],
+     | 99.99th=[ 7840]
+   bw (  KiB/s): min= 7936, max= 8448, per=99.81%, avg=8192.00, stdev=93.48, samples=16
+   iops        : min=   62, max=   66, avg=64.00, stdev= 0.73, samples=16
+  lat (usec)   : 2=16.21%, 4=9.57%, 10=74.22%
+  cpu          : usr=0.15%, sys=0.20%, ctx=513, majf=0, minf=6
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,512,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+  WRITE: bw=8207KiB/s (8404kB/s), 8207KiB/s-8207KiB/s (8404kB/s-8404kB/s), io=64.0MiB (67.1MB), run=7985-7985msec
+Terminated
+1774865040154851238 C_C1_INTERVENTION_END
+1774865040156747371 C_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+1774865100160443184 C_C1_RECOVERY_R1_END
+1774865100162341391 C_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day18/workdir/retry_test bash /home/observer/project/day18/scripts/retry_storm.sh
+1774865100169189311 retry_storm_start TARGET=/home/observer/project/day18/workdir/retry_test BUDGET_MS=50 RETRIES=5
+1774865101688611774 dt_ms=57 retries=5
+1774865102201306180 dt_ms=54 retries=5
+1774865105551161357 dt_ms=194 retries=5
+1774865106010014945 dt_ms=55 retries=5
+1774865111853627549 dt_ms=52 retries=5
+1774865114791966610 dt_ms=55 retries=5
+1774865115175127916 dt_ms=200 retries=5
+1774865118791124952 dt_ms=56 retries=5
+1774865124820611695 dt_ms=144 retries=5
+1774865130588406168 dt_ms=69 retries=5
+1774865131283893860 dt_ms=111 retries=5
+1774865131785548940 dt_ms=99 retries=5
+1774865133355220003 dt_ms=191 retries=5
+1774865138087510576 dt_ms=291 retries=5
+1774865143398145737 dt_ms=185 retries=5
+1774865152465094458 dt_ms=165 retries=5
+1774865152575995476 dt_ms=65 retries=5
+1774865160167217105 C_C1_RECOVERY_R2_END
+1774865160168966090 C_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+1774865220172876004 C_C1_POSTBASELINE_END
+=== CONDITION_C_CYCLE_1_END ===
+1774865220175885972 C_C2_BASELINE_START
+=== CONDITION_C_CYCLE_2_START ===
+--- BASELINE ---
+1774865280180688250 C_C2_BASELINE_END
+1774865280182637217 C_C2_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] timeout 20s env FIO_JOB=/home/observer/project/day18/scripts/bgio.fio BURSTS=1 ON_SEC=20 OFF_SEC=0 bash /home/observer/project/day18/scripts/run_bursts.sh
+Burst 1
+bgio: (g=0): rw=write, bs=(R) 128KiB-128KiB, (W) 128KiB-128KiB, (T) 128KiB-128KiB, ioengine=libaio, iodepth=4
+fio-3.39
+Starting 1 process
+
+bgio: (groupid=0, jobs=1): err= 0: pid=501122: Mon Mar 30 13:08:08 2026
+  write: IOPS=64, BW=8207KiB/s (8404kB/s)(64.0MiB/7985msec); 0 zone resets
+    slat (nsec): min=26242, max=66797, avg=37174.07, stdev=5464.46
+    clat (nsec): min=926, max=10019, avg=4220.10, stdev=1478.23
+     lat (nsec): min=28223, max=72094, avg=41394.16, stdev=6608.66
+    clat percentiles (nsec):
+     |  1.00th=[ 1560],  5.00th=[ 1784], 10.00th=[ 1944], 20.00th=[ 2448],
+     | 30.00th=[ 3632], 40.00th=[ 4192], 50.00th=[ 4512], 60.00th=[ 4768],
+     | 70.00th=[ 4960], 80.00th=[ 5344], 90.00th=[ 6112], 95.00th=[ 6496],
+     | 99.00th=[ 7200], 99.50th=[ 7456], 99.90th=[10048], 99.95th=[10048],
+     | 99.99th=[10048]
+   bw (  KiB/s): min= 7936, max= 8448, per=99.81%, avg=8192.00, stdev=93.48, samples=16
+   iops        : min=   62, max=   66, avg=64.00, stdev= 0.73, samples=16
+  lat (nsec)   : 1000=0.20%
+  lat (usec)   : 2=10.55%, 4=23.05%, 10=66.02%, 20=0.20%
+  cpu          : usr=0.11%, sys=0.23%, ctx=512, majf=0, minf=6
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,512,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+  WRITE: bw=8207KiB/s (8404kB/s), 8207KiB/s-8207KiB/s (8404kB/s-8404kB/s), io=64.0MiB (67.1MB), run=7985-7985msec
+Terminated
+1774865300190496735 C_C2_INTERVENTION_END
+1774865300192635350 C_C2_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+1774865360196478930 C_C2_RECOVERY_R1_END
+1774865360198427082 C_C2_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day18/workdir/retry_test bash /home/observer/project/day18/scripts/retry_storm.sh
+1774865360205345891 retry_storm_start TARGET=/home/observer/project/day18/workdir/retry_test BUDGET_MS=50 RETRIES=5
+1774865360797525660 dt_ms=278 retries=5
+1774865371447812644 dt_ms=176 retries=5
+1774865377841695750 dt_ms=55 retries=5
+1774865380131108594 dt_ms=193 retries=5
+1774865388464897226 dt_ms=186 retries=5
+1774865389936787072 dt_ms=59 retries=5
+1774865391185528449 dt_ms=64 retries=5
+1774865399759364763 dt_ms=180 retries=5
+1774865408139882633 dt_ms=204 retries=5
+1774865416475516012 dt_ms=187 retries=5
+1774865418599474230 dt_ms=56 retries=5
+1774865419797174353 dt_ms=57 retries=5
+1774865420203352809 C_C2_RECOVERY_R2_END
+1774865420205491276 C_C2_POSTBASELINE_START
+--- POST_BASELINE ---
+1774865480209091988 C_C2_POSTBASELINE_END
+=== CONDITION_C_CYCLE_2_END ===
+1774865480212024697 C_C3_BASELINE_START
+=== CONDITION_C_CYCLE_3_START ===
+--- BASELINE ---
+1774865540216754549 C_C3_BASELINE_END
+1774865540218727794 C_C3_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] timeout 20s env FIO_JOB=/home/observer/project/day18/scripts/bgio.fio BURSTS=1 ON_SEC=20 OFF_SEC=0 bash /home/observer/project/day18/scripts/run_bursts.sh
+Burst 1
+bgio: (g=0): rw=write, bs=(R) 128KiB-128KiB, (W) 128KiB-128KiB, (T) 128KiB-128KiB, ioengine=libaio, iodepth=4
+fio-3.39
+Starting 1 process
+
+bgio: (groupid=0, jobs=1): err= 0: pid=557801: Mon Mar 30 13:12:28 2026
+  write: IOPS=64, BW=8207KiB/s (8404kB/s)(64.0MiB/7985msec); 0 zone resets
+    slat (nsec): min=26278, max=74928, avg=37841.10, stdev=5008.14
+    clat (nsec): min=1185, max=13519, avg=4227.13, stdev=1434.69
+     lat (nsec): min=27945, max=81020, avg=42068.22, stdev=6063.36
+    clat percentiles (nsec):
+     |  1.00th=[ 1272],  5.00th=[ 1544], 10.00th=[ 1960], 20.00th=[ 3152],
+     | 30.00th=[ 3696], 40.00th=[ 4048], 50.00th=[ 4320], 60.00th=[ 4640],
+     | 70.00th=[ 4960], 80.00th=[ 5408], 90.00th=[ 5920], 95.00th=[ 6304],
+     | 99.00th=[ 6880], 99.50th=[ 7392], 99.90th=[13504], 99.95th=[13504],
+     | 99.99th=[13504]
+   bw (  KiB/s): min= 7936, max= 8448, per=99.81%, avg=8192.00, stdev=93.48, samples=16
+   iops        : min=   62, max=   66, avg=64.00, stdev= 0.73, samples=16
+  lat (usec)   : 2=10.35%, 4=27.73%, 10=61.72%, 20=0.20%
+  cpu          : usr=0.09%, sys=0.24%, ctx=512, majf=0, minf=6
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,512,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+  WRITE: bw=8207KiB/s (8404kB/s), 8207KiB/s-8207KiB/s (8404kB/s-8404kB/s), io=64.0MiB (67.1MB), run=7985-7985msec
+Terminated
+1774865560225945985 C_C3_INTERVENTION_END
+1774865560227805248 C_C3_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+1774865620231506624 C_C3_RECOVERY_R1_END
+1774865620233391128 C_C3_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day18/workdir/retry_test bash /home/observer/project/day18/scripts/retry_storm.sh
+1774865620240690494 retry_storm_start TARGET=/home/observer/project/day18/workdir/retry_test BUDGET_MS=50 RETRIES=5
+1774865620637322248 dt_ms=62 retries=5
+1774865621828814330 dt_ms=56 retries=5
+1774865627773982753 dt_ms=176 retries=5
+1774865627887363590 dt_ms=51 retries=5
+1774865636181361085 dt_ms=201 retries=5
+1774865641866033931 dt_ms=61 retries=5
+1774865645022602318 dt_ms=145 retries=5
+1774865648553297678 dt_ms=64 retries=5
+1774865649045448311 dt_ms=114 retries=5
+1774865655422734225 dt_ms=189 retries=5
+1774865663683303384 dt_ms=131 retries=5
+1774865672380110524 dt_ms=142 retries=5
+1774865678087872976 dt_ms=54 retries=5
+1774865678300653866 dt_ms=69 retries=5
+1774865680238452403 C_C3_RECOVERY_R2_END
+1774865680240186147 C_C3_POSTBASELINE_START
+--- POST_BASELINE ---
+1774865740243563768 C_C3_POSTBASELINE_END
+=== CONDITION_C_CYCLE_3_END ===
+[INFO] Day18 run complete: /home/observer/project/day18/runs/2026-03-30_130240_day18_C_transition_vs_state
+[INFO] Cleaning up...
