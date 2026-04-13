@@ -266,8 +266,8 @@ Several limitations are acknowledged:
 
 For this reason, Day18 is treated as a model-discrimination step rather than a final attribution step.
 
-Recommended concrete Day18 timing matrix
-------------------------------------------
+Day18 timing matrix
+--------------------
 
 Condition A - Reference
 
