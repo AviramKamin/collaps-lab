@@ -1,0 +1,65 @@
+[INFO] Starting Day19 run: 2026-04-01_143218_day19_B_mechanism_isolation
+[INFO] CONDITION=B
+[INFO] BASE_DIR=/home/observer/project/day19
+[INFO] RUN_DIR=/home/observer/project/day19/runs/2026-04-01_143218_day19_B_mechanism_isolation
+[INFO] BGIO_FILE=/home/observer/project/day19/scripts/day19_bgio.fio
+[INFO] RETRY_TARGET=/dev/shm/day19_retry_test
+[INFO] CPU_CORE=0 ENABLE_COMPETITOR=0
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] N_CYCLES=1 BASELINE_SEC=10 INTERVENTION_SEC=5 R1_SEC=10 R2_SEC=15 POST_SEC=10 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 14010
+[MARK] 1775043138915957051 B_C1_BASELINE_START
+=== CONDITION_B_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1775043148919972982 B_C1_BASELINE_END
+[MARK] 1775043148920970652 B_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] timeout 5s env FIO_JOB=/home/observer/project/day19/scripts/day19_bgio.fio BURSTS=1 ON_SEC=5 OFF_SEC=0 bash /home/observer/project/day19/scripts/run_bursts.sh
+Burst 1
+bgio: (g=0): rw=write, bs=(R) 128KiB-128KiB, (W) 128KiB-128KiB, (T) 128KiB-128KiB, ioengine=libaio, iodepth=4
+fio-3.39
+Starting 1 process
+
+fio: terminating on signal 15
+Terminated
+
+fio: terminating on signal 15
+
+bgio: (groupid=0, jobs=1): err= 0: pid=14982: Wed Apr  1 14:32:34 2026
+  write: IOPS=63, BW=8191KiB/s (8388kB/s)(37.9MiB/4735msec); 0 zone resets
+    slat (nsec): min=23538, max=64705, avg=35852.17, stdev=4218.49
+    clat (nsec): min=1148, max=10778, avg=3892.57, stdev=1337.77
+     lat (nsec): min=24778, max=67649, avg=39744.75, stdev=5098.64
+    clat percentiles (nsec):
+     |  1.00th=[ 1224],  5.00th=[ 1496], 10.00th=[ 1736], 20.00th=[ 2256],
+     | 30.00th=[ 3344], 40.00th=[ 4080], 50.00th=[ 4384], 60.00th=[ 4576],
+     | 70.00th=[ 4704], 80.00th=[ 4896], 90.00th=[ 5088], 95.00th=[ 5344],
+     | 99.00th=[ 6240], 99.50th=[ 6816], 99.90th=[10816], 99.95th=[10816],
+     | 99.99th=[10816]
+   bw (  KiB/s): min= 8192, max= 8448, per=100.00%, avg=8220.44, stdev=85.33, samples=9
+   iops        : min=   64, max=   66, avg=64.22, stdev= 0.67, samples=9
+  lat (usec)   : 2=13.53%, 4=23.43%, 10=62.71%, 20=0.33%
+  cpu          : usr=0.04%, sys=0.25%, ctx=304, majf=0, minf=6
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,303,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=4
+
+Run status group 0 (all jobs):
+  WRITE: bw=8191KiB/s (8388kB/s), 8191KiB/s-8191KiB/s (8388kB/s-8388kB/s), io=37.9MiB (39.7MB), run=4735-4735msec
+[MARK] 1775043154094376168 B_C1_INTERVENTION_END
+[MARK] 1775043154095313949 B_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1775043164098117211 B_C1_RECOVERY_R1_END
+[MARK] 1775043164099086954 B_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 15s env TARGET=/dev/shm/day19_retry_test BUDGET_MS=50 RETRIES=5 bash /home/observer/project/day19/scripts/retry_storm.sh
+1775043164105150251 retry_storm_start TARGET=/dev/shm/day19_retry_test BUDGET_MS=50 RETRIES=5
+[MARK] 1775043179102933471 B_C1_RECOVERY_R2_END
+[MARK] 1775043179103633769 B_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1775043189105969883 B_C1_POSTBASELINE_END
+=== CONDITION_B_CYCLE_1_END ===
+[INFO] Day19 run complete: /home/observer/project/day19/runs/2026-04-01_143218_day19_B_mechanism_isolation
+[INFO] Cleaning up...
