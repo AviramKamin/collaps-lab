@@ -1,0 +1,116 @@
+[INFO] Starting Day21 run: 2026-04-12_122205_day21_A_buffered_vs_direct
+[INFO] CONDITION=A
+[INFO] BASE_DIR=/home/observer/project/day21
+[INFO] RUN_DIR=/home/observer/project/day21/runs/2026-04-12_122205_day21_A_buffered_vs_direct
+[INFO] RETRY_TARGET=/home/observer/project/day21/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=3 BASELINE_SEC=60 INTERVENTION_SEC=10 R1_SEC=60 R2_SEC=60 POST_SEC=60 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 83170
+[MARK] 1775985725636909661 A_C1_BASELINE_START
+=== CONDITION_A_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1775985785641071952 A_C1_BASELINE_END
+[MARK] 1775985785642040825 A_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day21 CONDITION=A
+[MARK] 1775985795645903560 A_C1_INTERVENTION_END
+[MARK] 1775985795646881082 A_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1775985855649704221 A_C1_RECOVERY_R1_END
+[MARK] 1775985855650679390 A_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day21/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day21/scripts/retry_storm_day21.sh
+1775985855657072945 retry_storm_start TARGET=/home/observer/project/day21/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1775985862393069890 dt_ms=278 retries=5 io_mode=buffered
+1775985870603420300 dt_ms=389 retries=5 io_mode=buffered
+1775985871022658848 dt_ms=54 retries=5 io_mode=buffered
+1775985873543580796 dt_ms=166 retries=5 io_mode=buffered
+1775985874004770776 dt_ms=101 retries=5 io_mode=buffered
+1775985879913137173 dt_ms=51 retries=5 io_mode=buffered
+1775985881352555453 dt_ms=60 retries=5 io_mode=buffered
+1775985882920503982 dt_ms=244 retries=5 io_mode=buffered
+1775985890246025957 dt_ms=65 retries=5 io_mode=buffered
+1775985891679179717 dt_ms=310 retries=5 io_mode=buffered
+1775985893592895435 dt_ms=60 retries=5 io_mode=buffered
+1775985896564712637 dt_ms=59 retries=5 io_mode=buffered
+1775985898447754101 dt_ms=55 retries=5 io_mode=buffered
+1775985901142853285 dt_ms=191 retries=5 io_mode=buffered
+1775985909646901577 dt_ms=225 retries=5 io_mode=buffered
+1775985911190536604 dt_ms=54 retries=5 io_mode=buffered
+[MARK] 1775985915654901164 A_C1_RECOVERY_R2_END
+[MARK] 1775985915655852000 A_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1775985975658826433 A_C1_POSTBASELINE_END
+=== CONDITION_A_CYCLE_1_END ===
+[MARK] 1775985975660906512 A_C2_BASELINE_START
+=== CONDITION_A_CYCLE_2_START ===
+--- BASELINE ---
+[MARK] 1775986035664716635 A_C2_BASELINE_END
+[MARK] 1775986035665816342 A_C2_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day21 CONDITION=A
+[MARK] 1775986045669751389 A_C2_INTERVENTION_END
+[MARK] 1775986045670736077 A_C2_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1775986105673599445 A_C2_RECOVERY_R1_END
+[MARK] 1775986105674634096 A_C2_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day21/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day21/scripts/retry_storm_day21.sh
+1775986105680801206 retry_storm_start TARGET=/home/observer/project/day21/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1775986110034850828 dt_ms=178 retries=5 io_mode=buffered
+1775986112380716357 dt_ms=54 retries=5 io_mode=buffered
+1775986118621567766 dt_ms=184 retries=5 io_mode=buffered
+1775986126872582081 dt_ms=187 retries=5 io_mode=buffered
+1775986127745677502 dt_ms=54 retries=5 io_mode=buffered
+1775986128017715053 dt_ms=63 retries=5 io_mode=buffered
+1775986130226848550 dt_ms=83 retries=5 io_mode=buffered
+1775986136500956281 dt_ms=178 retries=5 io_mode=buffered
+1775986146208940267 dt_ms=183 retries=5 io_mode=buffered
+1775986154259023539 dt_ms=282 retries=5 io_mode=buffered
+1775986155363935730 dt_ms=147 retries=5 io_mode=buffered
+1775986160844833618 dt_ms=57 retries=5 io_mode=buffered
+[MARK] 1775986165678741008 A_C2_RECOVERY_R2_END
+[MARK] 1775986165679643400 A_C2_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1775986225682727280 A_C2_POSTBASELINE_END
+=== CONDITION_A_CYCLE_2_END ===
+[MARK] 1775986225684778434 A_C3_BASELINE_START
+=== CONDITION_A_CYCLE_3_START ===
+--- BASELINE ---
+[MARK] 1775986285688583678 A_C3_BASELINE_END
+[MARK] 1775986285689559403 A_C3_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day21 CONDITION=A
+[MARK] 1775986295693709321 A_C3_INTERVENTION_END
+[MARK] 1775986295694824269 A_C3_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1775986355697709123 A_C3_RECOVERY_R1_END
+[MARK] 1775986355698709496 A_C3_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day21/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day21/scripts/retry_storm_day21.sh
+1775986355704769439 retry_storm_start TARGET=/home/observer/project/day21/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1775986356190065368 dt_ms=176 retries=5 io_mode=buffered
+1775986357961803508 dt_ms=51 retries=5 io_mode=buffered
+1775986360831153930 dt_ms=63 retries=5 io_mode=buffered
+1775986364862457644 dt_ms=194 retries=5 io_mode=buffered
+1775986372581934661 dt_ms=179 retries=5 io_mode=buffered
+1775986379754835392 dt_ms=54 retries=5 io_mode=buffered
+1775986380223764738 dt_ms=51 retries=5 io_mode=buffered
+1775986380565595402 dt_ms=250 retries=5 io_mode=buffered
+1775986385665708182 dt_ms=51 retries=5 io_mode=buffered
+1775986388186086676 dt_ms=146 retries=5 io_mode=buffered
+1775986396435424510 dt_ms=176 retries=5 io_mode=buffered
+1775986402780764361 dt_ms=53 retries=5 io_mode=buffered
+1775986405119954575 dt_ms=222 retries=5 io_mode=buffered
+1775986406001485001 dt_ms=88 retries=5 io_mode=buffered
+1775986411076831150 dt_ms=60 retries=5 io_mode=buffered
+1775986413778985547 dt_ms=210 retries=5 io_mode=buffered
+[MARK] 1775986415702838265 A_C3_RECOVERY_R2_END
+[MARK] 1775986415703837694 A_C3_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1775986475706578471 A_C3_POSTBASELINE_END
+=== CONDITION_A_CYCLE_3_END ===
+[INFO] Day21 run complete: /home/observer/project/day21/runs/2026-04-12_122205_day21_A_buffered_vs_direct
+[INFO] Cleaning up...
