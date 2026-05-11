@@ -1,0 +1,111 @@
+[INFO] Starting Day22 run: 2026-04-14_103716_day22_A_intermediate_observation_regime
+[INFO] CONDITION=A
+[INFO] OBS_REGIME=heartbeat_only
+[INFO] BASE_DIR=/home/observer/project/day22
+[INFO] RUN_DIR=/home/observer/project/day22/runs/2026-04-14_103716_day22_A_intermediate_observation_regime
+[INFO] RETRY_TARGET=/home/observer/project/day22/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=3 BASELINE_SEC=60 INTERVENTION_SEC=10 R1_SEC=60 R2_SEC=60 POST_SEC=60 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 54447
+[MARK] 1776152236122248249 A_C1_BASELINE_START
+=== CONDITION_A_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1776152296126394562 A_C1_BASELINE_END
+[MARK] 1776152296127487634 A_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=A
+[MARK] 1776152306131322387 A_C1_INTERVENTION_END
+[MARK] 1776152306132301181 A_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776152366135158661 A_C1_RECOVERY_R1_END
+[MARK] 1776152366136174604 A_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776152366142545836 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776152371691626617 dt_ms=377 retries=5 io_mode=buffered
+1776152373991947983 dt_ms=182 retries=5 io_mode=buffered
+1776152382551294371 dt_ms=315 retries=5 io_mode=buffered
+1776152384312476848 dt_ms=91 retries=5 io_mode=buffered
+1776152390815844868 dt_ms=179 retries=5 io_mode=buffered
+1776152400601087905 dt_ms=178 retries=5 io_mode=buffered
+1776152400800702861 dt_ms=52 retries=5 io_mode=buffered
+1776152404820737527 dt_ms=52 retries=5 io_mode=buffered
+1776152408726450044 dt_ms=218 retries=5 io_mode=buffered
+1776152417092799604 dt_ms=176 retries=5 io_mode=buffered
+1776152421584562222 dt_ms=53 retries=5 io_mode=buffered
+[MARK] 1776152426140548156 A_C1_RECOVERY_R2_END
+[MARK] 1776152426141819711 A_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776152486144845586 A_C1_POSTBASELINE_END
+=== CONDITION_A_CYCLE_1_END ===
+[MARK] 1776152486147124177 A_C2_BASELINE_START
+=== CONDITION_A_CYCLE_2_START ===
+--- BASELINE ---
+[MARK] 1776152546151029127 A_C2_BASELINE_END
+[MARK] 1776152546152077978 A_C2_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=A
+[MARK] 1776152556156053584 A_C2_INTERVENTION_END
+[MARK] 1776152556157095547 A_C2_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776152616160055918 A_C2_RECOVERY_R1_END
+[MARK] 1776152616161105085 A_C2_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776152616168542086 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776152616952337344 dt_ms=52 retries=5 io_mode=buffered
+1776152623735941020 dt_ms=181 retries=5 io_mode=buffered
+1776152631602945351 dt_ms=53 retries=5 io_mode=buffered
+1776152633221349585 dt_ms=175 retries=5 io_mode=buffered
+1776152637147633440 dt_ms=52 retries=5 io_mode=buffered
+1776152641679723524 dt_ms=227 retries=5 io_mode=buffered
+1776152649545271512 dt_ms=182 retries=5 io_mode=buffered
+1776152654414108665 dt_ms=67 retries=5 io_mode=buffered
+1776152655223425086 dt_ms=82 retries=5 io_mode=buffered
+1776152658936735703 dt_ms=180 retries=5 io_mode=buffered
+1776152663695761279 dt_ms=338 retries=5 io_mode=buffered
+1776152667967278688 dt_ms=146 retries=5 io_mode=buffered
+1776152675680460831 dt_ms=185 retries=5 io_mode=buffered
+[MARK] 1776152676165441868 A_C2_RECOVERY_R2_END
+[MARK] 1776152676167066221 A_C2_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776152736169855607 A_C2_POSTBASELINE_END
+=== CONDITION_A_CYCLE_2_END ===
+[MARK] 1776152736171962942 A_C3_BASELINE_START
+=== CONDITION_A_CYCLE_3_START ===
+--- BASELINE ---
+[MARK] 1776152796175897240 A_C3_BASELINE_END
+[MARK] 1776152796176942315 A_C3_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=A
+[MARK] 1776152806181065167 A_C3_INTERVENTION_END
+[MARK] 1776152806182161724 A_C3_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776152866185276509 A_C3_RECOVERY_R1_END
+[MARK] 1776152866186314177 A_C3_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776152866192591646 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776152873492377562 dt_ms=163 retries=5 io_mode=buffered
+1776152873861424031 dt_ms=54 retries=5 io_mode=buffered
+1776152875670366342 dt_ms=182 retries=5 io_mode=buffered
+1776152881645816764 dt_ms=55 retries=5 io_mode=buffered
+1776152884506120604 dt_ms=180 retries=5 io_mode=buffered
+1776152892558420648 dt_ms=188 retries=5 io_mode=buffered
+1776152900587051066 dt_ms=61 retries=5 io_mode=buffered
+1776152901098712114 dt_ms=178 retries=5 io_mode=buffered
+1776152903117921545 dt_ms=60 retries=5 io_mode=buffered
+1776152903841379342 dt_ms=55 retries=5 io_mode=buffered
+1776152911082889598 dt_ms=198 retries=5 io_mode=buffered
+1776152918873655759 dt_ms=143 retries=5 io_mode=buffered
+1776152919407640156 dt_ms=66 retries=5 io_mode=buffered
+1776152921915191475 dt_ms=61 retries=5 io_mode=buffered
+[MARK] 1776152926190616171 A_C3_RECOVERY_R2_END
+[MARK] 1776152926191585469 A_C3_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776152986194383570 A_C3_POSTBASELINE_END
+=== CONDITION_A_CYCLE_3_END ===
+[INFO] Day22 run complete: /home/observer/project/day22/runs/2026-04-14_103716_day22_A_intermediate_observation_regime
+[INFO] Cleaning up...

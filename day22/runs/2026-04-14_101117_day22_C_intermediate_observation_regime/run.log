@@ -1,0 +1,40 @@
+[INFO] Starting Day22 run: 2026-04-14_101117_day22_C_intermediate_observation_regime
+[INFO] CONDITION=C
+[INFO] OBS_REGIME=narrow_trace
+[INFO] BASE_DIR=/home/observer/project/day22
+[INFO] RUN_DIR=/home/observer/project/day22/runs/2026-04-14_101117_day22_C_intermediate_observation_regime
+[INFO] RETRY_TARGET=/home/observer/project/day22/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=1 BASELINE_SEC=10 INTERVENTION_SEC=5 R1_SEC=10 R2_SEC=15 POST_SEC=10 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 29287
+[MARK] 1776150677802670734 C_C1_BASELINE_START
+=== CONDITION_C_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1776150687806676284 C_C1_BASELINE_END
+[MARK] 1776150687807642862 C_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=C
+[MARK] 1776150692811567685 C_C1_INTERVENTION_END
+[MARK] 1776150692812568578 C_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776150702815413137 C_C1_RECOVERY_R1_END
+[MARK] 1776150702816402326 C_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started narrow trace window: trace_pid=31629 duration=10s output=/home/observer/project/day22/runs/2026-04-14_101117_day22_C_intermediate_observation_regime/trace_c1_r2.dat
+trace-cmd: Permission denied
+  opening '/sys/kernel/tracing/tracing_on'
+[INFO] timeout 15s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776150702825034286 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776150707782218912 dt_ms=246 retries=5 io_mode=buffered
+1776150713898121117 dt_ms=66 retries=5 io_mode=buffered
+1776150715536600088 dt_ms=179 retries=5 io_mode=buffered
+[INFO] Narrow trace window completed
+[MARK] 1776150717825178040 C_C1_RECOVERY_R2_END
+[MARK] 1776150717826167674 C_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776150727829339863 C_C1_POSTBASELINE_END
+=== CONDITION_C_CYCLE_1_END ===
+[INFO] Day22 run complete: /home/observer/project/day22/runs/2026-04-14_101117_day22_C_intermediate_observation_regime
+[INFO] Cleaning up...

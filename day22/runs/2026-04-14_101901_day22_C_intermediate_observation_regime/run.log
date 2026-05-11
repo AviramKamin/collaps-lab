@@ -1,0 +1,49 @@
+[INFO] Starting Day22 run: 2026-04-14_101901_day22_C_intermediate_observation_regime
+[INFO] CONDITION=C
+[INFO] OBS_REGIME=narrow_trace
+[INFO] BASE_DIR=/home/observer/project/day22
+[INFO] RUN_DIR=/home/observer/project/day22/runs/2026-04-14_101901_day22_C_intermediate_observation_regime
+[INFO] RETRY_TARGET=/home/observer/project/day22/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=1 BASELINE_SEC=10 INTERVENTION_SEC=5 R1_SEC=10 R2_SEC=15 POST_SEC=10 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 41938
+[MARK] 1776151141053253102 C_C1_BASELINE_START
+=== CONDITION_C_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1776151151057550566 C_C1_BASELINE_END
+[MARK] 1776151151058563977 C_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=C
+[MARK] 1776151156062600575 C_C1_INTERVENTION_END
+[MARK] 1776151156063685319 C_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776151166066583731 C_C1_RECOVERY_R1_END
+[MARK] 1776151166067603049 C_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started narrow trace window: trace_pid=44281 duration=10s output=/home/observer/project/day22/runs/2026-04-14_101901_day22_C_intermediate_observation_regime/trace_c1_r2.dat
+[INFO] timeout 15s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776151166080135743 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776151169453420138 dt_ms=51 retries=5 io_mode=buffered
+1776151171658961421 dt_ms=289 retries=5 io_mode=buffered
+1776151172103113184 dt_ms=62 retries=5 io_mode=buffered
+1776151172639593631 dt_ms=52 retries=5 io_mode=buffered
+1776151175657489496 dt_ms=51 retries=5 io_mode=buffered
+CPU0 data recorded at offset=0x140000
+    262570 bytes in size (3276800 uncompressed)
+CPU1 data recorded at offset=0x184000
+    113327 bytes in size (1146880 uncompressed)
+CPU2 data recorded at offset=0x1a0000
+    123706 bytes in size (1277952 uncompressed)
+CPU3 data recorded at offset=0x1c0000
+    112644 bytes in size (1130496 uncompressed)
+1776151179948664170 dt_ms=223 retries=5 io_mode=buffered
+[INFO] Narrow trace window completed
+[MARK] 1776151182131624397 C_C1_RECOVERY_R2_END
+[MARK] 1776151182132321103 C_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776151192134716058 C_C1_POSTBASELINE_END
+=== CONDITION_C_CYCLE_1_END ===
+[INFO] Day22 run complete: /home/observer/project/day22/runs/2026-04-14_101901_day22_C_intermediate_observation_regime
+[INFO] Cleaning up...

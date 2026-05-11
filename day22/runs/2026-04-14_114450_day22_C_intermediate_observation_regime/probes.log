@@ -1,0 +1,6 @@
+1776156420831489188 trace_start duration=10s file=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime/trace_c1_r2.dat
+1776156480836563822 trace_stop
+1776156670861179658 trace_start duration=10s file=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime/trace_c2_r2.dat
+1776156730866145023 trace_stop
+1776156920890360632 trace_start duration=10s file=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime/trace_c3_r2.dat
+1776156980895826378 trace_stop

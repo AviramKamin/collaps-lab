@@ -1,0 +1,38 @@
+[INFO] Starting Day22 run: 2026-04-14_094637_day22_B_intermediate_observation_regime
+[INFO] CONDITION=B
+[INFO] OBS_REGIME=bounded_sampling
+[INFO] BASE_DIR=/home/observer/project/day22
+[INFO] RUN_DIR=/home/observer/project/day22/runs/2026-04-14_094637_day22_B_intermediate_observation_regime
+[INFO] RETRY_TARGET=/home/observer/project/day22/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=1 BASELINE_SEC=10 INTERVENTION_SEC=5 R1_SEC=10 R2_SEC=15 POST_SEC=10 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 13805
+[MARK] 1776149197714519364 B_C1_BASELINE_START
+=== CONDITION_B_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1776149207718547420 B_C1_BASELINE_END
+[MARK] 1776149207719519698 B_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=B
+[MARK] 1776149212723761649 B_C1_INTERVENTION_END
+[MARK] 1776149212724739742 B_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776149222727642220 B_C1_RECOVERY_R1_END
+[MARK] 1776149222728646517 B_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started bounded sampling: vmstat_pid=16144 iostat_pid=16145
+[INFO] timeout 15s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776149222738050999 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776149223533592574 dt_ms=56 retries=5 io_mode=buffered
+1776149231923648817 dt_ms=175 retries=5 io_mode=buffered
+1776149233520459011 dt_ms=52 retries=5 io_mode=buffered
+[INFO] Stopped bounded sampling
+[MARK] 1776149237739345590 B_C1_RECOVERY_R2_END
+[MARK] 1776149237740237924 B_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776149247743239398 B_C1_POSTBASELINE_END
+=== CONDITION_B_CYCLE_1_END ===
+[INFO] Day22 run complete: /home/observer/project/day22/runs/2026-04-14_094637_day22_B_intermediate_observation_regime
+[INFO] Cleaning up...

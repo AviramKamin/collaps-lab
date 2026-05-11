@@ -1,0 +1,126 @@
+[INFO] Starting Day22 run: 2026-04-14_111326_day22_B_intermediate_observation_regime
+[INFO] CONDITION=B
+[INFO] OBS_REGIME=bounded_sampling
+[INFO] BASE_DIR=/home/observer/project/day22
+[INFO] RUN_DIR=/home/observer/project/day22/runs/2026-04-14_111326_day22_B_intermediate_observation_regime
+[INFO] RETRY_TARGET=/home/observer/project/day22/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=3 BASELINE_SEC=60 INTERVENTION_SEC=10 R1_SEC=60 R2_SEC=60 POST_SEC=60 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 217587
+[MARK] 1776154406568477433 B_C1_BASELINE_START
+=== CONDITION_B_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1776154466572873525 B_C1_BASELINE_END
+[MARK] 1776154466573968805 B_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=B
+[MARK] 1776154476577908986 B_C1_INTERVENTION_END
+[MARK] 1776154476578897377 B_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776154536581758577 B_C1_RECOVERY_R1_END
+[MARK] 1776154536582764264 B_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started bounded sampling: vmstat_pid=229635 iostat_pid=229637
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776154536592876377 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776154537623225264 dt_ms=133 retries=5 io_mode=buffered
+1776154542222588500 dt_ms=54 retries=5 io_mode=buffered
+1776154546217017416 dt_ms=190 retries=5 io_mode=buffered
+1776154555943423931 dt_ms=59 retries=5 io_mode=buffered
+1776154556627581229 dt_ms=279 retries=5 io_mode=buffered
+1776154564465595391 dt_ms=53 retries=5 io_mode=buffered
+1776154565514694521 dt_ms=56 retries=5 io_mode=buffered
+1776154569574919486 dt_ms=64 retries=5 io_mode=buffered
+1776154571305964826 dt_ms=53 retries=5 io_mode=buffered
+1776154572091636451 dt_ms=55 retries=5 io_mode=buffered
+1776154575627335699 dt_ms=176 retries=5 io_mode=buffered
+1776154585048903875 dt_ms=181 retries=5 io_mode=buffered
+1776154592621191070 dt_ms=55 retries=5 io_mode=buffered
+1776154593219068315 dt_ms=196 retries=5 io_mode=buffered
+[INFO] Stopped bounded sampling
+[MARK] 1776154596595497518 B_C1_RECOVERY_R2_END
+[MARK] 1776154596596426464 B_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776154656599156792 B_C1_POSTBASELINE_END
+=== CONDITION_B_CYCLE_1_END ===
+[MARK] 1776154656601298629 B_C2_BASELINE_START
+=== CONDITION_B_CYCLE_2_START ===
+--- BASELINE ---
+[MARK] 1776154716605339016 B_C2_BASELINE_END
+[MARK] 1776154716606401277 B_C2_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=B
+[MARK] 1776154726610568344 B_C2_INTERVENTION_END
+[MARK] 1776154726611635920 B_C2_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776154786614572192 B_C2_RECOVERY_R1_END
+[MARK] 1776154786615629768 B_C2_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started bounded sampling: vmstat_pid=284461 iostat_pid=284462
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776154786625144067 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776154790648426086 dt_ms=168 retries=5 io_mode=buffered
+1776154791315724783 dt_ms=53 retries=5 io_mode=buffered
+1776154797609194215 dt_ms=53 retries=5 io_mode=buffered
+1776154797903038117 dt_ms=72 retries=5 io_mode=buffered
+1776154802092790297 dt_ms=179 retries=5 io_mode=buffered
+1776154804444829961 dt_ms=61 retries=5 io_mode=buffered
+1776154805209111560 dt_ms=56 retries=5 io_mode=buffered
+1776154810693311884 dt_ms=195 retries=5 io_mode=buffered
+1776154819196317342 dt_ms=250 retries=5 io_mode=buffered
+1776154820958503913 dt_ms=60 retries=5 io_mode=buffered
+1776154829579236443 dt_ms=178 retries=5 io_mode=buffered
+1776154838366433941 dt_ms=64 retries=5 io_mode=buffered
+1776154838569901944 dt_ms=140 retries=5 io_mode=buffered
+1776154838775658879 dt_ms=145 retries=5 io_mode=buffered
+[INFO] Stopped bounded sampling
+[MARK] 1776154846627738605 B_C2_RECOVERY_R2_END
+[MARK] 1776154846628627144 B_C2_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776154906631408821 B_C2_POSTBASELINE_END
+=== CONDITION_B_CYCLE_2_END ===
+[MARK] 1776154906633546566 B_C3_BASELINE_START
+=== CONDITION_B_CYCLE_3_START ===
+--- BASELINE ---
+[MARK] 1776154966637703384 B_C3_BASELINE_END
+[MARK] 1776154966638930294 B_C3_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=B
+[MARK] 1776154976643167338 B_C3_INTERVENTION_END
+[MARK] 1776154976644169507 B_C3_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776155036647662085 B_C3_RECOVERY_R1_END
+[MARK] 1776155036648679421 B_C3_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started bounded sampling: vmstat_pid=339480 iostat_pid=339481
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776155036658467424 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776155038044494525 dt_ms=181 retries=5 io_mode=buffered
+1776155038711174813 dt_ms=55 retries=5 io_mode=buffered
+1776155039184930682 dt_ms=316 retries=5 io_mode=buffered
+1776155047243144141 dt_ms=179 retries=5 io_mode=buffered
+1776155048245075116 dt_ms=52 retries=5 io_mode=buffered
+1776155052675092271 dt_ms=53 retries=5 io_mode=buffered
+1776155055369005696 dt_ms=247 retries=5 io_mode=buffered
+1776155061447033489 dt_ms=59 retries=5 io_mode=buffered
+1776155065186664721 dt_ms=183 retries=5 io_mode=buffered
+1776155067070375203 dt_ms=73 retries=5 io_mode=buffered
+1776155068082179871 dt_ms=56 retries=5 io_mode=buffered
+1776155068752797358 dt_ms=89 retries=5 io_mode=buffered
+1776155074437274831 dt_ms=181 retries=5 io_mode=buffered
+1776155077021431521 dt_ms=58 retries=5 io_mode=buffered
+1776155082876566209 dt_ms=58 retries=5 io_mode=buffered
+1776155083343240567 dt_ms=206 retries=5 io_mode=buffered
+1776155092169430899 dt_ms=59 retries=5 io_mode=buffered
+1776155092720015338 dt_ms=178 retries=5 io_mode=buffered
+1776155095144239008 dt_ms=59 retries=5 io_mode=buffered
+[INFO] Stopped bounded sampling
+[MARK] 1776155096661677057 B_C3_RECOVERY_R2_END
+[MARK] 1776155096662636319 B_C3_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776155156665474773 B_C3_POSTBASELINE_END
+=== CONDITION_B_CYCLE_3_END ===
+[INFO] Day22 run complete: /home/observer/project/day22/runs/2026-04-14_111326_day22_B_intermediate_observation_regime
+[INFO] Cleaning up...

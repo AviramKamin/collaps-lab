@@ -1,0 +1,155 @@
+[INFO] Starting Day22 run: 2026-04-14_114450_day22_C_intermediate_observation_regime
+[INFO] CONDITION=C
+[INFO] OBS_REGIME=narrow_trace
+[INFO] BASE_DIR=/home/observer/project/day22
+[INFO] RUN_DIR=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime
+[INFO] RETRY_TARGET=/home/observer/project/day22/workdir/retry_test
+[INFO] RETRIES=5 BUDGET_MS=50
+[INFO] IO_MODE=buffered
+[INFO] ENABLE_INTERVENTION_IO=0
+[INFO] N_CYCLES=3 BASELINE_SEC=60 INTERVENTION_SEC=10 R1_SEC=60 R2_SEC=60 POST_SEC=60 HEARTBEAT_HZ=50
+[INFO] Heartbeat PID: 382381
+[MARK] 1776156290814826356 C_C1_BASELINE_START
+=== CONDITION_C_CYCLE_1_START ===
+--- BASELINE ---
+[MARK] 1776156350819285127 C_C1_BASELINE_END
+[MARK] 1776156350820257648 C_C1_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=C
+[MARK] 1776156360824137970 C_C1_INTERVENTION_END
+[MARK] 1776156360825136305 C_C1_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776156420828038922 C_C1_RECOVERY_R1_END
+[MARK] 1776156420829040739 C_C1_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started narrow trace window: trace_pid=394431 duration=10s output=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime/trace_c1_r2.dat
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776156420838580683 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776156421465642013 dt_ms=54 retries=5 io_mode=buffered
+1776156424976453821 dt_ms=148 retries=5 io_mode=buffered
+1776156430454605656 dt_ms=62 retries=5 io_mode=buffered
+1776156432203628344 dt_ms=71 retries=5 io_mode=buffered
+CPU0 data recorded at offset=0x140000
+    266490 bytes in size (3293184 uncompressed)
+CPU1 data recorded at offset=0x184000
+    130313 bytes in size (1376256 uncompressed)
+CPU2 data recorded at offset=0x1a4000
+    117635 bytes in size (1196032 uncompressed)
+CPU3 data recorded at offset=0x1c4000
+    119226 bytes in size (1212416 uncompressed)
+1776156435369012763 dt_ms=247 retries=5 io_mode=buffered
+1776156443636851986 dt_ms=57 retries=5 io_mode=buffered
+1776156443990250327 dt_ms=136 retries=5 io_mode=buffered
+1776156449250232730 dt_ms=54 retries=5 io_mode=buffered
+1776156450034991048 dt_ms=336 retries=5 io_mode=buffered
+1776156453230038414 dt_ms=196 retries=5 io_mode=buffered
+1776156454595106652 dt_ms=57 retries=5 io_mode=buffered
+1776156461810630555 dt_ms=139 retries=5 io_mode=buffered
+1776156468626027998 dt_ms=64 retries=5 io_mode=buffered
+1776156468814873686 dt_ms=70 retries=5 io_mode=buffered
+1776156472034495584 dt_ms=134 retries=5 io_mode=buffered
+1776156478116704192 dt_ms=59 retries=5 io_mode=buffered
+[INFO] Narrow trace window completed
+[MARK] 1776156480838606270 C_C1_RECOVERY_R2_END
+[MARK] 1776156480839566013 C_C1_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776156540842287655 C_C1_POSTBASELINE_END
+=== CONDITION_C_CYCLE_1_END ===
+[MARK] 1776156540844390992 C_C2_BASELINE_START
+=== CONDITION_C_CYCLE_2_START ===
+--- BASELINE ---
+[MARK] 1776156600848548179 C_C2_BASELINE_END
+[MARK] 1776156600849544885 C_C2_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=C
+[MARK] 1776156610853838070 C_C2_INTERVENTION_END
+[MARK] 1776156610855026276 C_C2_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776156670858068578 C_C2_RECOVERY_R1_END
+[MARK] 1776156670859064987 C_C2_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started narrow trace window: trace_pid=449557 duration=10s output=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime/trace_c2_r2.dat
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776156670868080487 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776156671431335548 dt_ms=57 retries=5 io_mode=buffered
+1776156671793644969 dt_ms=178 retries=5 io_mode=buffered
+1776156674617162143 dt_ms=60 retries=5 io_mode=buffered
+1776156680974135295 dt_ms=195 retries=5 io_mode=buffered
+CPU0 data recorded at offset=0x140000
+    261876 bytes in size (3309568 uncompressed)
+CPU1 data recorded at offset=0x180000
+    121034 bytes in size (1294336 uncompressed)
+CPU2 data recorded at offset=0x1a0000
+    128567 bytes in size (1327104 uncompressed)
+CPU3 data recorded at offset=0x1c0000
+    124382 bytes in size (1343488 uncompressed)
+1776156687798402625 dt_ms=150 retries=5 io_mode=buffered
+1776156690319111870 dt_ms=83 retries=5 io_mode=buffered
+1776156696173666754 dt_ms=58 retries=5 io_mode=buffered
+1776156700401915378 dt_ms=183 retries=5 io_mode=buffered
+1776156703231234782 dt_ms=64 retries=5 io_mode=buffered
+1776156703410147675 dt_ms=141 retries=5 io_mode=buffered
+1776156709849526687 dt_ms=145 retries=5 io_mode=buffered
+1776156713709051486 dt_ms=59 retries=5 io_mode=buffered
+1776156716929726264 dt_ms=60 retries=5 io_mode=buffered
+1776156717453581604 dt_ms=260 retries=5 io_mode=buffered
+1776156723020775262 dt_ms=59 retries=5 io_mode=buffered
+1776156724641603744 dt_ms=56 retries=5 io_mode=buffered
+1776156725323507696 dt_ms=289 retries=5 io_mode=buffered
+1776156726774706803 dt_ms=141 retries=5 io_mode=buffered
+[INFO] Narrow trace window completed
+[MARK] 1776156730868078953 C_C2_RECOVERY_R2_END
+[MARK] 1776156730868985307 C_C2_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776156790871819464 C_C2_POSTBASELINE_END
+=== CONDITION_C_CYCLE_2_END ===
+[MARK] 1776156790873972950 C_C3_BASELINE_START
+=== CONDITION_C_CYCLE_3_START ===
+--- BASELINE ---
+[MARK] 1776156850877889994 C_C3_BASELINE_END
+[MARK] 1776156850878895848 C_C3_INTERVENTION_START
+--- INTERVENTION ---
+[INFO] Intervention IO disabled for Day22 CONDITION=C
+[MARK] 1776156860883288272 C_C3_INTERVENTION_END
+[MARK] 1776156860884276293 C_C3_RECOVERY_R1_START
+--- RECOVERY_R1 ---
+[MARK] 1776156920887195069 C_C3_RECOVERY_R1_END
+[MARK] 1776156920888201386 C_C3_RECOVERY_R2_START
+--- RECOVERY_R2 ---
+[INFO] Started narrow trace window: trace_pid=504683 duration=10s output=/home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime/trace_c3_r2.dat
+[INFO] timeout 60s env TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered bash /home/observer/project/day22/scripts/retry_storm.sh
+1776156920897636444 retry_storm_start TARGET=/home/observer/project/day22/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776156925635307575 dt_ms=141 retries=5 io_mode=buffered
+1776156930686635688 dt_ms=62 retries=5 io_mode=buffered
+1776156932437116483 dt_ms=53 retries=5 io_mode=buffered
+CPU0 data recorded at offset=0x140000
+    265550 bytes in size (3309568 uncompressed)
+CPU1 data recorded at offset=0x184000
+    124551 bytes in size (1294336 uncompressed)
+CPU2 data recorded at offset=0x1a4000
+    121367 bytes in size (1245184 uncompressed)
+CPU3 data recorded at offset=0x1c4000
+    131107 bytes in size (1441792 uncompressed)
+1776156937877269448 dt_ms=62 retries=5 io_mode=buffered
+1776156938288173451 dt_ms=310 retries=5 io_mode=buffered
+1776156942473210089 dt_ms=58 retries=5 io_mode=buffered
+1776156945618855141 dt_ms=138 retries=5 io_mode=buffered
+1776156948654398196 dt_ms=63 retries=5 io_mode=buffered
+1776156954986329826 dt_ms=191 retries=5 io_mode=buffered
+1776156957553534963 dt_ms=56 retries=5 io_mode=buffered
+1776156961269118507 dt_ms=61 retries=5 io_mode=buffered
+1776156964835698915 dt_ms=224 retries=5 io_mode=buffered
+1776156966863295050 dt_ms=92 retries=5 io_mode=buffered
+1776156970610494301 dt_ms=53 retries=5 io_mode=buffered
+1776156973021816256 dt_ms=62 retries=5 io_mode=buffered
+1776156974081060786 dt_ms=52 retries=5 io_mode=buffered
+1776156974368733042 dt_ms=142 retries=5 io_mode=buffered
+1776156977208323081 dt_ms=56 retries=5 io_mode=buffered
+[INFO] Narrow trace window completed
+[MARK] 1776156980898187327 C_C3_RECOVERY_R2_END
+[MARK] 1776156980899076088 C_C3_POSTBASELINE_START
+--- POST_BASELINE ---
+[MARK] 1776157040901858484 C_C3_POSTBASELINE_END
+=== CONDITION_C_CYCLE_3_END ===
+[INFO] Day22 run complete: /home/observer/project/day22/runs/2026-04-14_114450_day22_C_intermediate_observation_regime
+[INFO] Cleaning up...
