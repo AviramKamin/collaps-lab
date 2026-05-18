@@ -1,0 +1,6 @@
+[INFO] Starting run 20260419_205556_day23_B CONDITION=B
+=== CONDITION_B_CYCLE_1_START ===
+1776621381574516634 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=direct
+1776621388821283129 dt_ms=135 retries=5 io_mode=direct
+=== CONDITION_B_CYCLE_1_END ===
+[INFO] Completed run: /home/observer/project/day23/runs/20260419_205556_day23_B

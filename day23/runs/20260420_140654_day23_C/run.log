@@ -1,0 +1,57 @@
+[INFO] Starting run 20260420_140654_day23_C CONDITION=C
+=== CONDITION_C_CYCLE_1_START ===
+1776683344606297269 retry_storm_start TARGET=/home/observer/project/day23/altfs_mount/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776683350430896430 dt_ms=379 retries=5 io_mode=buffered
+1776683352569598621 dt_ms=52 retries=5 io_mode=buffered
+1776683358728301977 dt_ms=338 retries=5 io_mode=buffered
+1776683367341813830 dt_ms=144 retries=5 io_mode=buffered
+1776683369129180547 dt_ms=58 retries=5 io_mode=buffered
+1776683378149014141 dt_ms=143 retries=5 io_mode=buffered
+1776683378973891338 dt_ms=57 retries=5 io_mode=buffered
+1776683385174048818 dt_ms=59 retries=5 io_mode=buffered
+1776683386360520098 dt_ms=317 retries=5 io_mode=buffered
+1776683391770931154 dt_ms=63 retries=5 io_mode=buffered
+1776683394892023300 dt_ms=180 retries=5 io_mode=buffered
+1776683398540355682 dt_ms=58 retries=5 io_mode=buffered
+1776683400090220022 dt_ms=60 retries=5 io_mode=buffered
+1776683401972719790 dt_ms=57 retries=5 io_mode=buffered
+=== CONDITION_C_CYCLE_1_END ===
+=== CONDITION_C_CYCLE_2_START ===
+1776683594622073512 retry_storm_start TARGET=/home/observer/project/day23/altfs_mount/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776683595477715471 dt_ms=324 retries=5 io_mode=buffered
+1776683599224264582 dt_ms=57 retries=5 io_mode=buffered
+1776683606051593694 dt_ms=183 retries=5 io_mode=buffered
+1776683614673095304 dt_ms=182 retries=5 io_mode=buffered
+1776683616708702185 dt_ms=415 retries=5 io_mode=buffered
+1776683617535970147 dt_ms=58 retries=5 io_mode=buffered
+1776683618156546281 dt_ms=53 retries=5 io_mode=buffered
+1776683623700702999 dt_ms=274 retries=5 io_mode=buffered
+1776683632084073837 dt_ms=177 retries=5 io_mode=buffered
+1776683642580301135 dt_ms=229 retries=5 io_mode=buffered
+1776683644639744094 dt_ms=59 retries=5 io_mode=buffered
+1776683646680496297 dt_ms=54 retries=5 io_mode=buffered
+1776683651247811410 dt_ms=274 retries=5 io_mode=buffered
+1776683652152475417 dt_ms=56 retries=5 io_mode=buffered
+=== CONDITION_C_CYCLE_2_END ===
+=== CONDITION_C_CYCLE_3_START ===
+1776683844637598429 retry_storm_start TARGET=/home/observer/project/day23/altfs_mount/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776683849746953639 dt_ms=290 retries=5 io_mode=buffered
+1776683858039915146 dt_ms=180 retries=5 io_mode=buffered
+1776683862224198125 dt_ms=54 retries=5 io_mode=buffered
+1776683867573991744 dt_ms=52 retries=5 io_mode=buffered
+1776683868526302129 dt_ms=197 retries=5 io_mode=buffered
+1776683870678266260 dt_ms=54 retries=5 io_mode=buffered
+1776683876568381290 dt_ms=56 retries=5 io_mode=buffered
+1776683877225433231 dt_ms=411 retries=5 io_mode=buffered
+1776683879988280304 dt_ms=58 retries=5 io_mode=buffered
+1776683882938202199 dt_ms=65 retries=5 io_mode=buffered
+1776683883853955233 dt_ms=52 retries=5 io_mode=buffered
+1776683885348782387 dt_ms=54 retries=5 io_mode=buffered
+1776683885782652414 dt_ms=190 retries=5 io_mode=buffered
+1776683890298443123 dt_ms=69 retries=5 io_mode=buffered
+1776683891449403645 dt_ms=59 retries=5 io_mode=buffered
+1776683895297797269 dt_ms=186 retries=5 io_mode=buffered
+1776683897457010586 dt_ms=58 retries=5 io_mode=buffered
+1776683900333665830 dt_ms=300 retries=5 io_mode=buffered
+=== CONDITION_C_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day23/runs/20260420_140654_day23_C

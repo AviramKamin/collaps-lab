@@ -1,0 +1,16 @@
+[INFO] Starting run 20260420_133320_day23_B CONDITION=B
+=== CONDITION_B_CYCLE_1_START ===
+1776681330835732403 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=direct
+1776681351781616024 dt_ms=141 retries=5 io_mode=direct
+1776681361130957523 dt_ms=133 retries=5 io_mode=direct
+=== CONDITION_B_CYCLE_1_END ===
+=== CONDITION_B_CYCLE_2_START ===
+1776681580851256404 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=direct
+1776681608657069393 dt_ms=136 retries=5 io_mode=direct
+1776681636496795258 dt_ms=134 retries=5 io_mode=direct
+=== CONDITION_B_CYCLE_2_END ===
+=== CONDITION_B_CYCLE_3_START ===
+1776681830866853421 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=direct
+1776681857217032309 dt_ms=153 retries=5 io_mode=direct
+=== CONDITION_B_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day23/runs/20260420_133320_day23_B

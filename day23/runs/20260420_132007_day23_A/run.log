@@ -1,0 +1,53 @@
+[INFO] Starting run 20260420_132007_day23_A CONDITION=A
+=== CONDITION_A_CYCLE_1_START ===
+1776680537974535392 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776680538296922943 dt_ms=57 retries=5 io_mode=buffered
+1776680539933428643 dt_ms=202 retries=5 io_mode=buffered
+1776680543337910762 dt_ms=62 retries=5 io_mode=buffered
+1776680545669233835 dt_ms=416 retries=5 io_mode=buffered
+1776680549945215573 dt_ms=178 retries=5 io_mode=buffered
+1776680558472148147 dt_ms=205 retries=5 io_mode=buffered
+1776680566729232482 dt_ms=141 retries=5 io_mode=buffered
+1776680567951532763 dt_ms=51 retries=5 io_mode=buffered
+1776680575019466163 dt_ms=61 retries=5 io_mode=buffered
+1776680576530166663 dt_ms=56 retries=5 io_mode=buffered
+1776680577159259153 dt_ms=181 retries=5 io_mode=buffered
+1776680585663365407 dt_ms=197 retries=5 io_mode=buffered
+1776680594114675839 dt_ms=176 retries=5 io_mode=buffered
+1776680597238319120 dt_ms=54 retries=5 io_mode=buffered
+=== CONDITION_A_CYCLE_1_END ===
+=== CONDITION_A_CYCLE_2_START ===
+1776680787990088384 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776680794769702560 dt_ms=177 retries=5 io_mode=buffered
+1776680795820793003 dt_ms=66 retries=5 io_mode=buffered
+1776680803548122665 dt_ms=193 retries=5 io_mode=buffered
+1776680812459616816 dt_ms=175 retries=5 io_mode=buffered
+1776680816202522446 dt_ms=54 retries=5 io_mode=buffered
+1776680820944715355 dt_ms=201 retries=5 io_mode=buffered
+1776680821590969542 dt_ms=54 retries=5 io_mode=buffered
+1776680827266372360 dt_ms=62 retries=5 io_mode=buffered
+1776680827530447157 dt_ms=56 retries=5 io_mode=buffered
+1776680829781394520 dt_ms=180 retries=5 io_mode=buffered
+1776680831615004467 dt_ms=60 retries=5 io_mode=buffered
+1776680840032392565 dt_ms=167 retries=5 io_mode=buffered
+1776680840424107327 dt_ms=349 retries=5 io_mode=buffered
+1776680840828786955 dt_ms=69 retries=5 io_mode=buffered
+1776680846132019540 dt_ms=55 retries=5 io_mode=buffered
+=== CONDITION_A_CYCLE_2_END ===
+=== CONDITION_A_CYCLE_3_START ===
+1776681038005522359 retry_storm_start TARGET=/home/observer/project/day23/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776681039057691264 dt_ms=206 retries=5 io_mode=buffered
+1776681041187939064 dt_ms=66 retries=5 io_mode=buffered
+1776681043729864597 dt_ms=55 retries=5 io_mode=buffered
+1776681046576549665 dt_ms=57 retries=5 io_mode=buffered
+1776681047898495207 dt_ms=179 retries=5 io_mode=buffered
+1776681053336041687 dt_ms=58 retries=5 io_mode=buffered
+1776681058067971721 dt_ms=221 retries=5 io_mode=buffered
+1776681064149344721 dt_ms=53 retries=5 io_mode=buffered
+1776681066841520219 dt_ms=318 retries=5 io_mode=buffered
+1776681075898336113 dt_ms=137 retries=5 io_mode=buffered
+1776681086075854389 dt_ms=179 retries=5 io_mode=buffered
+1776681093221726349 dt_ms=54 retries=5 io_mode=buffered
+1776681094278653441 dt_ms=191 retries=5 io_mode=buffered
+=== CONDITION_A_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day23/runs/20260420_132007_day23_A

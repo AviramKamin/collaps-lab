@@ -1,0 +1,5 @@
+[INFO] Starting run 20260419_211214_day23_C CONDITION=C
+=== CONDITION_C_CYCLE_1_START ===
+mkdir: cannot create directory ‘/home/observer/project/day23/altfs_mount/retry_test’: Permission denied
+=== CONDITION_C_CYCLE_1_END ===
+[INFO] Completed run: /home/observer/project/day23/runs/20260419_211214_day23_C
