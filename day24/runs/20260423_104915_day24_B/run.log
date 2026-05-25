@@ -1,0 +1,14 @@
+[INFO] Starting run 20260423_104915_day24_B CONDITION=B
+[INFO] Applying writeback policy for CONDITION=B
+vm.dirty_background_ratio = 2
+vm.dirty_ratio = 5
+vm.dirty_writeback_centisecs = 100
+vm.dirty_expire_centisecs = 500
+=== CONDITION_B_CYCLE_1_START ===
+1776930567364299321 retry_storm_start RUN_TAG=20260423_104915_day24_B_C1 TARGET=/home/observer/project/day24/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776930568813366043 dt_ms=62 retries=5 io_mode=buffered run_tag=20260423_104915_day24_B_C1
+1776930570332033726 dt_ms=53 retries=5 io_mode=buffered run_tag=20260423_104915_day24_B_C1
+1776930570778454898 dt_ms=54 retries=5 io_mode=buffered run_tag=20260423_104915_day24_B_C1
+1776930571886896437 dt_ms=254 retries=5 io_mode=buffered run_tag=20260423_104915_day24_B_C1
+=== CONDITION_B_CYCLE_1_END ===
+[INFO] Completed run: /home/observer/project/day24/runs/20260423_104915_day24_B

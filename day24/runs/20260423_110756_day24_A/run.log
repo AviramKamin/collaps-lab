@@ -1,0 +1,60 @@
+[INFO] Starting run 20260423_110756_day24_A CONDITION=A
+[INFO] Applying writeback policy for CONDITION=A
+vm.dirty_background_ratio = 10
+vm.dirty_ratio = 20
+vm.dirty_writeback_centisecs = 500
+vm.dirty_expire_centisecs = 3000
+=== CONDITION_A_CYCLE_1_START ===
+1776931806084044994 retry_storm_start RUN_TAG=20260423_110756_day24_A_C1 TARGET=/home/observer/project/day24/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776931810358407691 dt_ms=257 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931819982681028 dt_ms=180 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931826374386109 dt_ms=56 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931830262691553 dt_ms=194 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931831449589112 dt_ms=54 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931840314493626 dt_ms=62 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931847892903987 dt_ms=51 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931848200128912 dt_ms=135 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931855009329586 dt_ms=52 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931855175958005 dt_ms=58 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+1776931856651455657 dt_ms=189 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C1
+=== CONDITION_A_CYCLE_1_END ===
+=== CONDITION_A_CYCLE_2_START ===
+1776932056099317371 retry_storm_start RUN_TAG=20260423_110756_day24_A_C2 TARGET=/home/observer/project/day24/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776932057249923605 dt_ms=141 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932061701605390 dt_ms=64 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932062417426675 dt_ms=132 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932066085338572 dt_ms=165 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932069062008201 dt_ms=56 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932072009602226 dt_ms=52 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932074825700772 dt_ms=413 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932076111590758 dt_ms=338 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932085822737923 dt_ms=56 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932086224990874 dt_ms=182 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932091858984319 dt_ms=68 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932094950585602 dt_ms=198 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932099814661185 dt_ms=56 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932101694610192 dt_ms=55 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932102955209407 dt_ms=56 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932105435062333 dt_ms=141 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932112790966764 dt_ms=51 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+1776932114624798809 dt_ms=321 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C2
+=== CONDITION_A_CYCLE_2_END ===
+=== CONDITION_A_CYCLE_3_START ===
+1776932306133667651 retry_storm_start RUN_TAG=20260423_110756_day24_A_C3 TARGET=/home/observer/project/day24/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered
+1776932312722756032 dt_ms=181 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932317696270512 dt_ms=54 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932317912857292 dt_ms=71 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932318486568674 dt_ms=67 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932323268857622 dt_ms=180 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932326800666279 dt_ms=52 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932328500414554 dt_ms=54 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932331998837615 dt_ms=324 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932340205151932 dt_ms=61 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932344090256109 dt_ms=59 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932346473978483 dt_ms=59 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932347056430962 dt_ms=340 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932348117022540 dt_ms=66 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932351705768516 dt_ms=250 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+1776932359952617676 dt_ms=209 retries=5 io_mode=buffered run_tag=20260423_110756_day24_A_C3
+=== CONDITION_A_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day24/runs/20260423_110756_day24_A
