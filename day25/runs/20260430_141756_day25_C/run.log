@@ -1,0 +1,59 @@
+[INFO] Starting run 20260430_141756_day25_C CONDITION=C SYNC_MODE=fdatasync
+=== CONDITION_C_CYCLE_1_START ===
+1777548006789133071 retry_storm_start RUN_TAG=20260430_141756_day25_C_C1 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=fdatasync
+1777548006877801433 dt_ms=56 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548007556337865 dt_ms=280 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548008733671940 dt_ms=176 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548011810638725 dt_ms=63 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548012281011589 dt_ms=55 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548018785878211 dt_ms=182 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548023213828482 dt_ms=56 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548025990486920 dt_ms=195 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548034410674354 dt_ms=164 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548035841053518 dt_ms=59 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548036572279817 dt_ms=120 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548043540431658 dt_ms=61 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548046461575907 dt_ms=59 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548046752193480 dt_ms=182 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548048040687117 dt_ms=53 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548049808770429 dt_ms=55 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548054184114233 dt_ms=383 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548064173313866 dt_ms=59 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548064692558253 dt_ms=179 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+1777548065687191763 dt_ms=61 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C1
+=== CONDITION_C_CYCLE_1_END ===
+=== CONDITION_C_CYCLE_2_START ===
+1777548256805033752 retry_storm_start RUN_TAG=20260430_141756_day25_C_C2 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=fdatasync
+1777548260483688524 dt_ms=54 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548263440964531 dt_ms=196 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548273605956600 dt_ms=140 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548281465438454 dt_ms=54 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548281810575525 dt_ms=71 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548282273261391 dt_ms=154 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548283467096761 dt_ms=179 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548288752286295 dt_ms=57 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548291848018807 dt_ms=140 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548298822489119 dt_ms=56 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548300312404855 dt_ms=144 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548309998970720 dt_ms=66 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548310713841103 dt_ms=69 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548310910707244 dt_ms=51 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+1777548314048645711 dt_ms=58 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C2
+=== CONDITION_C_CYCLE_2_END ===
+=== CONDITION_C_CYCLE_3_START ===
+1777548506820752458 retry_storm_start RUN_TAG=20260430_141756_day25_C_C3 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=fdatasync
+1777548511187739567 dt_ms=146 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548520217213684 dt_ms=181 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548527411905936 dt_ms=65 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548531239308946 dt_ms=61 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548531797802111 dt_ms=179 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548534317779397 dt_ms=62 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548539726907942 dt_ms=146 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548541550020850 dt_ms=65 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548541723581220 dt_ms=57 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548551043089919 dt_ms=182 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548556610963695 dt_ms=59 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548561145967523 dt_ms=143 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+1777548565122775436 dt_ms=57 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_141756_day25_C_C3
+=== CONDITION_C_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day25/runs/20260430_141756_day25_C

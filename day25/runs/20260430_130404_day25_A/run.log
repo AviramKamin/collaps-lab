@@ -1,0 +1,20 @@
+[INFO] Starting run 20260430_130404_day25_A CONDITION=A SYNC_MODE=none
+=== CONDITION_A_CYCLE_1_START ===
+1777543574706145682 retry_storm_start RUN_TAG=20260430_130404_day25_A_C1 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=none
+1777543593358004896 dt_ms=130 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C1
+1777543613487453089 dt_ms=125 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C1
+=== CONDITION_A_CYCLE_1_END ===
+=== CONDITION_A_CYCLE_2_START ===
+1777543824720749263 retry_storm_start RUN_TAG=20260430_130404_day25_A_C2 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=none
+1777543832102424469 dt_ms=60 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C2
+1777543839128044641 dt_ms=136 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C2
+1777543842827340560 dt_ms=137 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C2
+1777543882919115868 dt_ms=129 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C2
+=== CONDITION_A_CYCLE_2_END ===
+=== CONDITION_A_CYCLE_3_START ===
+1777544074736527294 retry_storm_start RUN_TAG=20260430_130404_day25_A_C3 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=none
+1777544076718976059 dt_ms=61 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C3
+1777544095150182167 dt_ms=124 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C3
+1777544112554236596 dt_ms=124 retries=5 io_mode=buffered sync_mode=none run_tag=20260430_130404_day25_A_C3
+=== CONDITION_A_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day25/runs/20260430_130404_day25_A

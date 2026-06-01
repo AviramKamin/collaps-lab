@@ -1,0 +1,7 @@
+[INFO] Starting run 20260430_125936_day25_C CONDITION=C SYNC_MODE=fdatasync
+=== CONDITION_C_CYCLE_1_START ===
+1777543188633945954 retry_storm_start RUN_TAG=20260430_125936_day25_C_C1 TARGET=/home/observer/project/day25/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered SYNC_MODE=fdatasync
+1777543191112254853 dt_ms=56 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_125936_day25_C_C1
+1777543191712134469 dt_ms=221 retries=5 io_mode=buffered sync_mode=fdatasync run_tag=20260430_125936_day25_C_C1
+=== CONDITION_C_CYCLE_1_END ===
+[INFO] Completed run: /home/observer/project/day25/runs/20260430_125936_day25_C
