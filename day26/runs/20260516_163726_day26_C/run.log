@@ -1,0 +1,12 @@
+[INFO] Starting run 20260516_163726_day26_C CONDITION=C COMPLETION_MODE=delay ARTIFICIAL_DELAY_MS=10
+=== CONDITION_C_CYCLE_1_START ===
+1778938776039261357 retry_storm_start RUN_TAG=20260516_163726_day26_C_C1 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=delay ARTIFICIAL_DELAY_MS=10
+1778938805717903621 dt_ms=131 retries=5 io_mode=buffered completion_mode=delay artificial_delay_ms=10 run_tag=20260516_163726_day26_C_C1
+=== CONDITION_C_CYCLE_1_END ===
+=== CONDITION_C_CYCLE_2_START ===
+1778939026054888120 retry_storm_start RUN_TAG=20260516_163726_day26_C_C2 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=delay ARTIFICIAL_DELAY_MS=10
+=== CONDITION_C_CYCLE_2_END ===
+=== CONDITION_C_CYCLE_3_START ===
+1778939276070172761 retry_storm_start RUN_TAG=20260516_163726_day26_C_C3 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=delay ARTIFICIAL_DELAY_MS=10
+=== CONDITION_C_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day26/runs/20260516_163726_day26_C

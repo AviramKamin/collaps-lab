@@ -1,0 +1,24 @@
+[INFO] Starting run 20260516_155607_day26_A CONDITION=A COMPLETION_MODE=none ARTIFICIAL_DELAY_MS=0
+=== CONDITION_A_CYCLE_1_START ===
+1778936297408697422 retry_storm_start RUN_TAG=20260516_155607_day26_A_C1 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=none ARTIFICIAL_DELAY_MS=0
+1778936317785389795 dt_ms=136 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C1
+1778936324177551216 dt_ms=64 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C1
+1778936345724207185 dt_ms=128 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C1
+=== CONDITION_A_CYCLE_1_END ===
+=== CONDITION_A_CYCLE_2_START ===
+1778936547423820177 retry_storm_start RUN_TAG=20260516_155607_day26_A_C2 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=none ARTIFICIAL_DELAY_MS=0
+1778936551099780601 dt_ms=126 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C2
+1778936563216179034 dt_ms=62 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C2
+1778936588325290555 dt_ms=131 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C2
+1778936590996972838 dt_ms=65 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C2
+1778936593677374712 dt_ms=123 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C2
+=== CONDITION_A_CYCLE_2_END ===
+=== CONDITION_A_CYCLE_3_START ===
+1778936797439163885 retry_storm_start RUN_TAG=20260516_155607_day26_A_C3 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=none ARTIFICIAL_DELAY_MS=0
+1778936811002139329 dt_ms=61 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C3
+1778936812296833639 dt_ms=76 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C3
+1778936823296262134 dt_ms=148 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C3
+1778936833553906133 dt_ms=124 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C3
+1778936837689673295 dt_ms=65 retries=5 io_mode=buffered completion_mode=none artificial_delay_ms=0 run_tag=20260516_155607_day26_A_C3
+=== CONDITION_A_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day26/runs/20260516_155607_day26_A

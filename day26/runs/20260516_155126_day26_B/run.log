@@ -1,0 +1,7 @@
+[INFO] Starting run 20260516_155126_day26_B CONDITION=B COMPLETION_MODE=fdatasync ARTIFICIAL_DELAY_MS=0
+=== CONDITION_B_CYCLE_1_START ===
+1778935898260118937 retry_storm_start RUN_TAG=20260516_155126_day26_B_C1 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=fdatasync ARTIFICIAL_DELAY_MS=0
+1778935898805096534 dt_ms=261 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_155126_day26_B_C1
+1778935901123908977 dt_ms=57 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_155126_day26_B_C1
+=== CONDITION_B_CYCLE_1_END ===
+[INFO] Completed run: /home/observer/project/day26/runs/20260516_155126_day26_B

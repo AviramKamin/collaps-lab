@@ -1,0 +1,60 @@
+[INFO] Starting run 20260516_161217_day26_B CONDITION=B COMPLETION_MODE=fdatasync ARTIFICIAL_DELAY_MS=0
+=== CONDITION_B_CYCLE_1_START ===
+1778937267328499502 retry_storm_start RUN_TAG=20260516_161217_day26_B_C1 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=fdatasync ARTIFICIAL_DELAY_MS=0
+1778937268075404299 dt_ms=55 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937269005512758 dt_ms=339 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937278012837430 dt_ms=53 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937278632739581 dt_ms=284 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937288138057920 dt_ms=256 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937294776660185 dt_ms=93 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937296905245635 dt_ms=266 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937305382257718 dt_ms=259 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937307436235663 dt_ms=60 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937311250792207 dt_ms=62 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937316328729701 dt_ms=165 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+1778937324848191392 dt_ms=195 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C1
+=== CONDITION_B_CYCLE_1_END ===
+=== CONDITION_B_CYCLE_2_START ===
+1778937517349520880 retry_storm_start RUN_TAG=20260516_161217_day26_B_C2 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=fdatasync ARTIFICIAL_DELAY_MS=0
+1778937523322986372 dt_ms=144 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937525366671825 dt_ms=57 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937525735958562 dt_ms=293 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937526507922104 dt_ms=68 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937527759623873 dt_ms=57 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937533588851323 dt_ms=61 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937534549903497 dt_ms=177 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937543078601105 dt_ms=276 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937549645327748 dt_ms=64 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937552758467139 dt_ms=144 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937554886797334 dt_ms=56 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937559648974531 dt_ms=61 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937562912238918 dt_ms=180 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937566173993714 dt_ms=55 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937570865767986 dt_ms=194 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937572404410211 dt_ms=63 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937573287994031 dt_ms=58 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+1778937576351700186 dt_ms=61 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C2
+=== CONDITION_B_CYCLE_2_END ===
+=== CONDITION_B_CYCLE_3_START ===
+1778937767365080782 retry_storm_start RUN_TAG=20260516_161217_day26_B_C3 TARGET=/home/observer/project/day26/workdir/retry_test BUDGET_MS=50 RETRIES=5 IO_MODE=buffered COMPLETION_MODE=fdatasync ARTIFICIAL_DELAY_MS=0
+1778937769712485142 dt_ms=181 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937772216485370 dt_ms=56 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937772345049070 dt_ms=62 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937777767627898 dt_ms=58 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937779925173993 dt_ms=56 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937780383368021 dt_ms=186 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937780963985491 dt_ms=51 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937786862819693 dt_ms=53 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937788904348666 dt_ms=260 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937793816966959 dt_ms=56 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937797246069081 dt_ms=179 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937800689177105 dt_ms=52 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937802262909176 dt_ms=296 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937803155636094 dt_ms=63 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937803416130184 dt_ms=111 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937808909642753 dt_ms=191 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937812774263086 dt_ms=56 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937817276719025 dt_ms=166 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+1778937818777140833 dt_ms=97 retries=5 io_mode=buffered completion_mode=fdatasync artificial_delay_ms=0 run_tag=20260516_161217_day26_B_C3
+=== CONDITION_B_CYCLE_3_END ===
+[INFO] Completed run: /home/observer/project/day26/runs/20260516_161217_day26_B
